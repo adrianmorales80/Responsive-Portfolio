@@ -1,0 +1,271 @@
+/*Properties for smaller screens*/
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    Max-width: 960px;
+    min-height: calc(100vh - 70px);
+    Padding: 20px;
+    Margin: 0 auto;  
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: auto;
+}
+.content {
+    display: flex;
+    justify-content: right;
+}
+.profile-pic {
+    width: 300px;
+    height: 250px;
+}
+header {
+    border-bottom: #dddddd 4px solid;
+}
+body {
+    margin: 0;
+}
+h1 {
+    background: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 1rem;
+    border-bottom: solid 3px #dddddd;
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+    padding: 1rem;
+}
+nav ul li a:link, a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+nav ul li a:hover, a:active {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+p {
+    color: #777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+footer {
+    background: #666666;
+    color: #ffffff;
+    text-align: center;
+    border-top: #4aaaa5 4px solid;
+    padding: 3%;
+}
+.project-tile-1 {
+    position: relative;
+    margin-bottom: 5%
+}
+.project-name-1 {
+    width: 200px;
+    background: #4aaaa5;
+    color: white;
+    font-family: 'Georgia',Times, Times New Roman, serif;
+    text-align: center;
+    padding: 2%;
+    position: absolute;
+    bottom: 10%;
+}
+.project-tile-2 {
+    position: relative;
+    margin-bottom: 5%;
+}
+.project-name-2 {
+    width: 200px;
+    background: #4aaaa5;
+    color: white;
+    font-family: 'Georgia',Times, Times New Roman, serif;
+    text-align: center;
+    padding: 2%;
+    position: absolute;
+    bottom: 10%;
+}
+.project-tile-3 {
+    position: relative;
+    margin-bottom: 5%;
+}
+.project-name-3 {
+    width: 200px;
+    background: #4aaaa5;
+    color: white;
+    font-family: 'Georgia',Times, Times New Roman, serif;
+    text-align: center;
+    padding: 2%;
+    position: absolute;
+    bottom: 10%; 
+}
+.project-tile-4 {
+    position: relative;
+    margin-bottom: 5%;
+}
+.project-name-4 {
+    width: 200px;
+    background: #4aaaa5;
+    color: white;
+    font-family: 'Georgia',Times, Times New Roman, serif;
+    text-align: center;
+    padding: 2%;
+    position: absolute;
+    bottom: 10%;
+}
+.project-tile-5 {
+    position: relative;
+    margin-bottom: 5%;
+}
+.project-name-5 {
+    width: 200px;
+    background: #4aaaa5;
+    color: white;
+    font-family: 'Georgia',Times, Times New Roman, serif;
+    text-align: center;
+    padding: 2%;
+    position: absolute;
+    bottom: 10%; 
+}
+form {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    resize: vertical;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input[type=submit] {
+    height: 2rem;
+    width: 6rem;
+    background: #4aaaa5;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background: #4aaaa58e;
+}
+
+/*Properties for medium screens*/
+@media only screen and (min-width: 768px) {
+    .profile-pic {
+        width: 500px;
+        height: 400px;
+        float: left;
+        margin-bottom: 1%;  
+    }
+    .name-float {
+        float: left;
+        width: 50%
+    }
+    nav {
+        justify-content: flex-end;
+        margin-right: 5%
+    }
+    nav ul li {
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .project-tile-1 {
+        float: left;
+        margin-right: 3%;
+    }
+    .project-tile-2 {
+        float: left;
+        margin-right: 3%;
+    }
+    .project-tile-3 {
+        float: left;
+    }
+    .project-tile-4 {
+        float: left;
+        clear: both;
+        overflow: auto;
+        margin-right: 3%;
+    }
+    .project-tile-5 {
+        float: left;
+    }
+    .project-name-1 {
+        font-size: 20px;
+    }
+    .project-name-2 {
+        font-size: 20px;
+    }
+    .project-name-3 {
+        font-size: 20px;
+    }
+    .project-name-4 {
+        font-size: 20px;
+    }
+    .project-name-5 {
+        font-size: 20px;
+    }
+
+/*Properties for larger screens*/
+@media only screen and (min-width: 980px) {
+    div img {
+        width: 250px;
+        height: 300px;
+    }
+    .project-name-1 {
+        width: 250px;
+    }
+    .project-name-2 {
+        width: 250px;
+    }
+    .project-name-3 {
+        width: 250px;
+    }
+    .project-name-4 {
+        width: 250px;
+    }
+    .project-name-5 {
+        width: 250px;
+    }
+    footer {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+}
