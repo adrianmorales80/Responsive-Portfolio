@@ -242,6 +242,7 @@ input[type=submit]:hover {
     .project-name-5 {
         font-size: 20px;
     }
+}
 
 /*Properties for larger screens*/
 @media only screen and (min-width: 980px) {
