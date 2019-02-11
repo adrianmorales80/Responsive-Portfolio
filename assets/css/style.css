@@ -25,6 +25,17 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.skills-pic {
+    width: 50%;
+    height: 350px;
+    margin-left: 1%;
+    margin-top: 1%
+}
+.fancy-text-1 {
+    font-family: 'Lora', serif;
+    font-size: 3rem;
+}
 /*
 html { 
     background: url(../images/binary-wallpapers.png) no-repeat center center fixed; 
@@ -207,13 +218,20 @@ input[type=submit]:hover {
         margin-bottom: 1%;
         margin-right: 2%; 
     }
+    .skills-pic {
+        width: 500px;
+        height: 400px;
+        float: right;
+        margin-left: 5%;
+        margin-top: 15%
+    }
     .name-float {
         float: left;
-        width: 50%
+        width: 50%;
     }
     nav {
         justify-content: flex-end;
-        margin-right: 5%
+        margin-right: 5%;
     }
     nav ul li {
         font-size: 20px;
@@ -261,23 +279,23 @@ input[type=submit]:hover {
 /*Properties for larger screens*/
 @media only screen and (min-width: 980px) {
     div img {
-        width: 250px;
-        height: 300px;
+        width: 200px;
+        height: 250px;
     }
     .project-name-1 {
-        width: 250px;
+        width: 200px;
     }
     .project-name-2 {
-        width: 250px;
+        width: 200px;
     }
     .project-name-3 {
-        width: 250px;
+        width: 200px;
     }
     .project-name-4 {
-        width: 250px;
+        width: 200px;
     }
     .project-name-5 {
-        width: 250px;
+        width: 200px;
     }
     footer {
         font-size: 20px;
