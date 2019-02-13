@@ -70,6 +70,7 @@ h2 {
     margin-top: 0;
     margin-bottom: 3%;
 }
+/*
 nav {
     display: flex;
     justify-content: center;
@@ -93,6 +94,24 @@ nav ul li a:hover, a:active {
     font-weight: bold;
     text-decoration: underline;
 }
+*/
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+  .navbar a:hover {
+    color: black;
+  }
 p {
     color: #777777;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -229,6 +248,7 @@ input[type=submit]:hover {
         float: left;
         width: 50%;
     }
+    /*
     nav {
         justify-content: flex-end;
         margin-right: 5%;
@@ -236,6 +256,31 @@ input[type=submit]:hover {
     nav ul li {
         font-size: 20px;
     }
+    */
+    .navbar {
+        height: 100%;
+        width: 160px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 16px;
+
+    }
+    .navbar a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #8fe239;
+        display: block;
+        float: none;
+      }
+      
+      .navbar a:hover {
+        color: #f1f1f1;
+      }
     p {
         font-size: 18px;
     }
