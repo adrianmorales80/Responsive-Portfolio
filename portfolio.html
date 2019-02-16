@@ -1,70 +1,79 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Adrian Morales</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="main.js"></script>
 </head>
+
 <body>
-    <header class="clearfix">
+    <div class="navbar" id="myNavBar">
+        <a href="index.html"><img src="./assets/images/Color logo - no background.png" height="100px" width="100px"
+                alt=""></a>
+        <a href="index.html"><i class="fas fa-home menu-icon"></i><b class="menu-text">Home</b></a>
+        <a href="about.html"><i class="fas fa-user menu-icon"></i><b class="menu-text">About</b></a>
+        <a href="portfolio.html"><i class="fas fa-briefcase menu-icon"></i><b class="menu-text">Portfolio</b></a>
+        <a href="contact.html"><i class="fas fa-envelope menu-icon"></i><b class="menu-text">Contact</b></a>
+        <a href="https://www.linkedin.com/in/adrianmorales80/" target="_blank"><i
+                class="fab fa-linkedin menu-icon"></i><b class="menu-text">LinkedIn</b></a>
+        <a href="https://github.com/adrianmorales80/" target="_blank"><i class="fab fa-github menu-icon"></i><b
+                class="menu-text">GitHub</b></a>
+        <a href="./assets/resume/Resume 2019.pdf" target="_blank"><i class="fas fa-file menu-icon"></i><b
+                class="menu-text">Resume</b></a>
+        <a href="javascript:void(0)" class="mobile-nav" onclick="myMenu()"><i class="fas fa-bars"></i></a>
+    </div>
+    <div class="wrapper">
         <div>
-            <h1 class="name-float">Adrian Morales</h1>
+            <h2>Portfolio</h2>
         </div>
-        <nav class="clearfix">
-            <ul>
-                <li class="clearfix"><a href="index.html">Home</a></li>
-                <li class="clearfix"><a href="about.html">About</a></li>
-                <li class="clearfix"><a href="portfolio.html">Portfolio</a></li>
-                <li class="clearfix"><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="wrapper">
-        <div>
-            <div>
-                <h2>Portfolio</h2>
+        <a href="https://adrianmorales80.github.io/Psychic-Game/" target="_blank">
+            <div class="clearfix project-names">
+                <div class="project-tile-1 content">
+                    <img src="assets/images/Psychic.jpg" alt="Psychic" height="200" width="200">
+                    <div class="project-name-1">David Blaine Psychic Game</div>
+                </div>
+        </a>
+        <a href="https://adrianmorales80.github.io/unit-4-game/" target="_blank">
+            <div class="project-tile-2 content">
+                <img src="assets/images/Crystals.jpg" alt="Crystal Collector" height="200" width="200">
+                <div class="project-name-2">Crystal Collector</div>
             </div>
-            <a href="https://adrianmorales80.github.io/Psychic-Game/" target="_blank">
-                <div class="clearfix project-names">
-                    <div class="project-tile-1 content">
-                        <img src="assets/images/Psychic.jpg" alt="Psychic" height="200" width="200">
-                        <div class="project-name-1">David Blaine Psychic Game</div>
-                    </div>
-            </a>
-            <a href="https://adrianmorales80.github.io/unit-4-game/" target="_blank">
-                <div class="project-tile-2 content">
-                    <img src="assets/images/Crystals.jpg" alt="Crystal Collector" height="200" width="200">
-                    <div class="project-name-2">Crystal Collector</div>
-                </div>
-            </a>
-            <a href="https://adrianmorales80.github.io/TriviaGame/" target="_blank">
-                <div class="project-tile-3 content">
-                    <img src="assets/images/mma-silva.jpg" alt="Trivia Game" height="200" width="200">
-                    <div class="project-name-3">UFC Trivia Game</div>
-                </div>
-            </a>
-            <a href="https://adrianmorales80.github.io/GifTastic/index.html" target="_blank">
-                <div class="project-tile-4 content">
-                    <img src="assets/images/giphy.gif" alt="GifTastic" height="200" width="200">
-                    <div class="project-name-4">Celebrity Gif Mania</div>
-                </div>
-            </a>
-            <a href="https://adrianmorales80.github.io/Train_Scheduler/" target="_blank">
-                <div class="project-tile-5 content">
-                    <img src="assets/images/blessed-era.jpg" alt="Blessed Era Express Scheduler" height="200"
-                        width="200">
-                    <div class="project-name-5">Blessed Era Express Scheduler</div>
-                </div>
-            </a>
-        </div>
-        </div>
-    </section>
-    <footer>
-        <Copyright>Copyright &copy;</Copyright>
-    </footer>
+        </a>
+        <a href="https://adrianmorales80.github.io/TriviaGame/" target="_blank">
+            <div class="project-tile-3 content">
+                <img src="assets/images/mma-silva.jpg" alt="Trivia Game" height="200" width="200">
+                <div class="project-name-3">UFC Trivia Game</div>
+            </div>
+        </a>
+        <a href="https://adrianmorales80.github.io/GifTastic/index.html" target="_blank">
+            <div class="project-tile-4 content">
+                <img src="assets/images/giphy.gif" alt="GifTastic" height="200" width="200">
+                <div class="project-name-4">Celebrity Gif Mania</div>
+            </div>
+        </a>
+        <a href="https://adrianmorales80.github.io/Train_Scheduler/" target="_blank">
+            <div class="project-tile-5 content">
+                <img src="assets/images/blessed-era.jpg" alt="Blessed Era Express Scheduler" height="200" width="200">
+                <div class="project-name-5">Blessed Era Express Scheduler</div>
+            </div>
+        </a>
+    </div>
+    <script>
+        function myMenu() {
+            let x = document.getElementById("myNavBar");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
 </body>
 
 </html>

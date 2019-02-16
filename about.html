@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Adrian Morales</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="main.js"></script>
 </head>
+
 <body>
-    <header class="clearfix">
-        <div>
-            <h1 class="name-float">Adrian Morales</h1>
-        </div>
-        <nav>
-            <ul>
-                <li class="clearfix"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="wrapper">
+    <div class="navbar" id="myNavBar">
+        <a href="index.html"><img src="./assets/images/Color logo - no background.png" height="100px" width="100px"
+                alt=""></a>
+        <a href="index.html"><i class="fas fa-home menu-icon"></i><b class="menu-text">Home</b></a>
+        <a href="about.html"><i class="fas fa-user menu-icon"></i><b class="menu-text">About</b></a>
+        <a href="portfolio.html"><i class="fas fa-briefcase menu-icon"></i><b class="menu-text">Portfolio</b></a>
+        <a href="contact.html"><i class="fas fa-envelope menu-icon"></i><b class="menu-text">Contact</b></a>
+        <a href="https://www.linkedin.com/in/adrianmorales80/" target="_blank"><i
+                class="fab fa-linkedin menu-icon"></i><b class="menu-text">LinkedIn</b></a>
+        <a href="https://github.com/adrianmorales80/" target="_blank"><i class="fab fa-github menu-icon"></i><b
+                class="menu-text">GitHub</b></a>
+        <a href="./assets/resume/Resume 2019.pdf" target="_blank"><i class="fas fa-file menu-icon"></i><b
+                class="menu-text">Resume</b></a>
+        <a href="javascript:void(0)" class="mobile-nav" onclick="myMenu()"><i class="fas fa-bars"></i></a>
+    </div>
+    <div class="wrapper">
         <div>
             <h2>About Me</h2>
         </div>
         <div class="clearfix">
             <img class="profile-pic clearfix" src="assets/images/profilePic.jpg" alt="Adrian's Profile Picture">
-            <p>Full-Stack Web Developer with a passion for making intuitive, reliable, and scalable software. I am an effective communicator with a thirst for knowledge and hunger for continuous self-development in all aspects of programming.</p>
-            <p>Pedagogy, education, and the evolution of technology are my passions. As a former 5th grade teacher, I saw firsthand how applications engage my students and the way coding logic helps them learn from their mistakes. Now, as a Client Success Manager, I see how exam software makes a wider impact in improving education for students, educators, and the institution as a whole.</p>
-            <p>Inspired by the impact that technology makes in our daily lives, I am motivated to move into a software engineering career. At the moment, I am completing the Southern Methodist University Full-Stack Development bootcamp to build a foundation in technologies such as HTML, CSS, JavaScript, JQuery, Node.js, and more. In the future, I am looking forward to working on a part-time Masters Degree in Software Engineering while also working as a Developer.</p>
+            <p>Full-Stack Web Developer with a passion for making intuitive, reliable, and scalable software. I am an
+                effective communicator with a thirst for knowledge and hunger for continuous self-development in all
+                aspects of programming.</p>
+            <p>Pedagogy, education, and the evolution of technology are my passions. As a former 5th grade teacher, I
+                saw firsthand how applications engage my students and the way coding logic helps them learn from their
+                mistakes. Now, as a Client Success Manager, I see how exam software makes a wider impact in improving
+                education for students, educators, and the institution as a whole.</p>
+            <p>Inspired by the impact that technology makes in our daily lives, I am motivated to move into a software
+                engineering career. At the moment, I am completing the Southern Methodist University Full-Stack
+                Development bootcamp to build a foundation in technologies such as HTML, CSS, JavaScript, JQuery,
+                Node.js, and more. In the future, I am looking forward to working on a part-time Masters Degree in
+                Software Engineering while also working as a Developer.</p>
         </div>
-    </section>
-    <footer>
-        <Copyright>Copyright &copy;</Copyright>
-    </footer>
+    </div>
+    <script>
+        function myMenu() {
+            let x = document.getElementById("myNavBar");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
 </body>
+
 </html>

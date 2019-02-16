@@ -42,15 +42,13 @@
     font-family: 'Permanent Marker', cursive;
     font-size: 3rem;
 }
-/*
 html { 
-    background: url(../images/binary-wallpapers.png) no-repeat center center fixed; 
+    background: url(../images/matrix-binary-wallpaper.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-*/
 header {
     border-bottom: #dddddd 4px solid;
     background: white;
