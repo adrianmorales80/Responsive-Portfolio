@@ -36,11 +36,13 @@
 .fancy-text-1 {
     font-family: 'Lora', serif;
     font-size: 3rem;
-    margin-left: 3rem
+    margin-left: 3rem;
+    color: white;
 }
 .fancy-text-2 {
     font-family: 'Permanent Marker', cursive;
     font-size: 3rem;
+    color: red;
 }
 html { 
     background: url(../images/matrix-binary-wallpaper.jpg) no-repeat center center fixed; 
@@ -67,9 +69,11 @@ h1 {
     margin-block-end: 0;
 }
 h2 {
-    color: #4aaaa5;
+    color: red;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 1rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 2rem;
     border-bottom: solid 3px #dddddd;
     margin-top: 0;
     margin-bottom: 3%;
@@ -111,8 +115,11 @@ h2 {
     text-align: left;
 }
 p {
-    color: #777777;
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: justify;
 }
 footer {
     background: #666666;
@@ -127,7 +134,7 @@ footer {
 }
 .project-name-1 {
     width: 200px;
-    background: #4aaaa5;
+    background: red;
     color: white;
     font-family: 'Georgia',Times, Times New Roman, serif;
     text-align: center;
@@ -141,7 +148,7 @@ footer {
 }
 .project-name-2 {
     width: 200px;
-    background: #4aaaa5;
+    background: red;
     color: white;
     font-family: 'Georgia',Times, Times New Roman, serif;
     text-align: center;
@@ -155,7 +162,7 @@ footer {
 }
 .project-name-3 {
     width: 200px;
-    background: #4aaaa5;
+    background: red;
     color: white;
     font-family: 'Georgia',Times, Times New Roman, serif;
     text-align: center;
@@ -169,7 +176,7 @@ footer {
 }
 .project-name-4 {
     width: 200px;
-    background: #4aaaa5;
+    background: red;
     color: white;
     font-family: 'Georgia',Times, Times New Roman, serif;
     text-align: center;
@@ -183,7 +190,7 @@ footer {
 }
 .project-name-5 {
     width: 200px;
-    background: #4aaaa5;
+    background: red;
     color: white;
     font-family: 'Georgia',Times, Times New Roman, serif;
     text-align: center;
@@ -192,8 +199,10 @@ footer {
     bottom: 10%; 
 }
 form {
-    color: #777777;
+    color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 input {
@@ -235,18 +244,11 @@ input[type=submit]:hover {
     }
     
     .profile-pic {
-        width: 500px;
-        height: 400px;
+        width: 350px;
+        height: 300px;
         float: left;
         margin-bottom: 1%;
         margin-right: 2%; 
-    }
-    .skills-pic {
-        width: 500px;
-        height: 400px;
-        float: right;
-        margin-left: 5%;
-        margin-top: 15%
     }
     .name-float {
         float: left;
