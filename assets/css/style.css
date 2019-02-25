@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 html { 
-    background: url(../images/matrix-binary-wallpaper.jpg) no-repeat center center fixed; 
+    background: url(../images/ali-yilmaz-1320636-unsplash.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -30,7 +30,7 @@ body {
 }
 .container {
     border-radius: 5px;
-    background-color: #f2f2f229;
+    background-color: #000000b8;
     padding: 20px;
 }
 h1 {
@@ -44,7 +44,7 @@ h1 {
     margin-block-end: 0;
 }
 h2 {
-    color: red;
+    color: #17bedef5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bolder;
     font-size: 2rem;
@@ -67,7 +67,7 @@ p {
   
 .navbar a {
     float: left;
-    color: #8fe239;
+    color: #04bee2f5;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -100,13 +100,14 @@ p {
 .fancy-text-1 {
     font-family: 'Lora', serif;
     font-size: 3rem;
+    font-weight: 600;
     margin-left: 3rem;
     color: white;
 }
 .fancy-text-2 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 3rem;
-    color: red;
+    color: #fffe04;
 }
 .animated-text {
     display: inline-block;
@@ -136,8 +137,8 @@ p {
 .letter-behind {
     transform: rotateX(-90deg);
 }
-.red {
-    color: red;
+.yellow {
+    color: #fffe04;
 }
 .white {
     color: white;
@@ -168,7 +169,7 @@ p {
 }
 .project-name-1 {
     width: 200px;
-    background: red;
+    background: #000000;
     color: white;
     font-family: 'Georgia',Times, Times New Roman, serif;
     text-align: center;
@@ -182,7 +183,7 @@ p {
 }
 .project-name-2 {
     width: 200px;
-    background: red;
+    background: #000000;
     color: white;
     font-family: 'Georgia',Times, Times New Roman, serif;
     text-align: center;
@@ -196,7 +197,7 @@ p {
 }
 .project-name-3 {
     width: 200px;
-    background: red;
+    background: #000000;
     color: white;
     font-family: 'Georgia',Times, Times New Roman, serif;
     text-align: center;
@@ -210,7 +211,7 @@ p {
 }
 .project-name-4 {
     width: 200px;
-    background: red;
+    background: #000000;
     color: white;
     font-family: 'Georgia',Times, Times New Roman, serif;
     text-align: center;
@@ -224,7 +225,7 @@ p {
 }
 .project-name-5 {
     width: 200px;
-    background: red;
+    background: #000000;
     color: white;
     font-family: 'Georgia',Times, Times New Roman, serif;
     text-align: center;
@@ -238,7 +239,7 @@ p {
 }
 .project-name-6 {
     width: 200px;
-    background: red;
+    background: #000000;
     color: white;
     font-family: 'Georgia',Times, Times New Roman, serif;
     text-align: center;
@@ -276,7 +277,7 @@ textarea {
 input[type=submit] {
     height: 3rem;
     width: 6rem;
-    background: red;
+    background: green;
     color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: bold;
@@ -330,7 +331,7 @@ input[type=submit]:hover {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
         font-size: 20px;
-        color: #8fe239;
+        color: #04bee2f5;
         display: block;
         float: none;
     }  
