@@ -261,6 +261,20 @@ p {
     position: absolute;
     bottom: 10%;
 }
+.project-tile-8 {
+    position: relative;
+    margin-bottom: 5%;
+}
+.project-name-8 {
+    width: 200px;
+    background: #000000;
+    color: white;
+    font-family: 'Georgia',Times, Times New Roman, serif;
+    text-align: center;
+    padding: 2%;
+    position: absolute;
+    bottom: 10%; 
+}
 /* Form styles on contact page */
 form {
     color: white;
@@ -392,6 +406,10 @@ input[type=submit]:hover {
         overflow: auto;
         margin-right: 3%;
     }
+    .project-tile-8 {
+        float: left;
+        margin-right: 3%
+    }
     .project-name-1 {
         font-size: 20px;
     }
@@ -411,6 +429,9 @@ input[type=submit]:hover {
         font-size: 20px;
     }
     .project-name-7 {
+        font-size: 20px;
+    }
+    .project-name-8 {
         font-size: 20px;
     }
 }
@@ -437,6 +458,9 @@ input[type=submit]:hover {
         width: 200px;
     }
     .project-name-7 {
+        width: 200px;
+    }
+    .project-name-8 {
         width: 200px;
     }
 }
